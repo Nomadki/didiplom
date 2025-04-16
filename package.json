@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "tailwind": "^2.3.1",
     "vue": "^3.5.13"
   },
   "devDependencies": {

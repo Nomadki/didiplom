@@ -54,18 +54,18 @@
   
   <style scoped>
   .weather-list {
-    position: fixed;        /* Фиксируем элемент на экране */
-    top: 10px;              /* Располагаем в верхнем углу */
-    right: 10px;            /* Сдвигаем в правый угол */
-    width: 180px;           /* Уменьшаем ширину списка */
+    position: fixed;        
+    top: 10px;             
+    right: 10px;            
+    width: 180px;          
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
-    color: white;           /* Белый цвет текста */
+    color: white;          
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     font-family: sans-serif;
-    max-height: 400px;      /* Ограничиваем высоту */
-    overflow-y: auto;       /* Прокрутка по вертикали, если список длинный */
+    max-height: 400px;      
+    overflow-y: auto;      
   }
   
   .city-weather-item {
